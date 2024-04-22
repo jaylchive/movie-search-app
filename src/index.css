@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --font-size-sm: 12px;
+  --font-size-md: 16px;
+  --font-size-lg: 24px;
+
+  --color-black-0: #e4e8ed;
+  --color-black-400: #97a3b6;
+  --color-black-500: #677489;
+  --color-black-700: #20293a;
+  --color-black-900: #111729;
+
+  --color-blue-500: #3662e3;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  color: inherit;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: inherit;
+}
+
+textarea,
+input {
+  color: inherit;
+  font: inherit;
+  border: none;
+  border-radius: unset;
+  outline: none;
+  background: none;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+body {
+  color: var(--color-black-0);
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+  line-height: 1;
+  background-color: var(--color-black-900);
+}

@@ -1,0 +1,23 @@
+.search {
+  width: 575px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 28px;
+  border-radius: 12px;
+  background-color: var(--color-black-700);
+  transform: translateY(-50%);
+}
+
+.search:focus-within {
+  outline: 3px solid var(--color-blue-500);
+}
+
+.search input {
+  width: 100%;
+  display: block;
+}
+
+.search input::placeholder {
+  color: var(--color-black-500);
+}

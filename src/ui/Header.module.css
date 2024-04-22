@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  height: 334px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  display: block;
+  margin-top: 24px;
+}

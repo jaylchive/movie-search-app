@@ -1,0 +1,8 @@
+.label,
+.votes {
+  color: var(--color-black-400);
+}
+
+.votes {
+  font-size: 11px;
+}
